@@ -88,4 +88,7 @@ tu propio proceso investigativo.
 ✔ El profesor es un mediador: mi papel es diseñar contextos de aprendizaje ricos en significado, conectados con tus intereses y realidades.  
 ✔ Se favorecen metodologías activas.
 
+### Link 
+
+[texto hipervinculado](https://juanferfranco.github.io/simulacion-2025-20/)
 

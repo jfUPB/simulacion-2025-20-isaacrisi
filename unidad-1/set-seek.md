@@ -53,7 +53,10 @@ Realiza el siguiente experimento y reporta los resultados en tu bitácora:
 
 ### Actividad 5
 
-  - 
+  - <img width="369" height="297" alt="image" src="https://github.com/user-attachments/assets/794bd144-44c9-4105-9896-18bdbc879988" />
+
+  
+
     
 
   

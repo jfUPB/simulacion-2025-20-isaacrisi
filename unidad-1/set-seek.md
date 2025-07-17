@@ -55,6 +55,9 @@ Realiza el siguiente experimento y reporta los resultados en tu bitácora:
 
   - <img width="369" height="297" alt="image" src="https://github.com/user-attachments/assets/794bd144-44c9-4105-9896-18bdbc879988" />
 
+  - <img width="419" height="338" alt="image" src="https://github.com/user-attachments/assets/325faa08-5d89-4ad3-b518-a7529d9fd959" />
+
+
   
 
     

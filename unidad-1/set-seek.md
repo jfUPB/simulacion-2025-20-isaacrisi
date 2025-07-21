@@ -59,6 +59,113 @@ Realiza el siguiente experimento y reporta los resultados en tu bitácora:
 
   - <img width="339" height="340" alt="image" src="https://github.com/user-attachments/assets/f1e156e7-3f0f-44c7-aaa4-e9dab99118c1" />
 
+  https://editor.p5js.org/isaacrisi/sketches/fIQhJbnr8
+
+### Actividad 6
+
+  - Crea un nuevo sketch en p5.js donde modifiques uno de los ejemplos anteriores y adiciones de Lévy flight. +
+    
+  - Explica por qué usaste esta técnica y qué resultados esberabas obtener.
+    
+    Esperaba hacer una especie de depedador que se mueve poco en su espacio y despues da saltos grandes pero con poca frecuencia hacia la presa lo imagine como un tiburon o algo asi, por eso el fondo azul.
+
+  - Copia el código en tu bitácora.
+   
+    ´´´java script
+    
+        let pos;
+      
+        function setup() {
+          createCanvas(800, 600);
+          background(0);
+          pos = createVector(width/2, height/2);
+          stroke(255);
+          strokeWeight(2);
+        }
+        
+        function draw() {
+          // Movimiento Lévy: la mayoría de los pasos son pequeños, algunos son grandes
+          let step = p5.Vector.random2D();
+          step.mult(random(1) < 0.01 ? random(100, 200) : random(1, 5));
+          
+        let newPos = p5.Vector.add(pos, step);
+        line(pos.x, pos.y, newPos.x, newPos.y);
+        pos = newPos;
+      
+        // Evita que el punto se salga del lienzo
+        pos.x = constrain(pos.x, 0, width);
+        pos.y = constrain(pos.y, 0, height);
+      }
+    
+    ´´´
+  - Coloca en enlace a tu sketch en p5.js en tu bitácora.
+    
+    https://editor.p5js.org/isaacrisi/sketches/BI3D03NEc
+    
+  - Selecciona una captura de pantalla de tu sketch y colócala en tu bitácora.
+
+    <img width="670" height="358" alt="image" src="https://github.com/user-attachments/assets/7e7d7755-b7aa-4bb4-99d3-ff9c81b5b71f" />
+
+    
+### Actividad 7
+
+  - Una vez has entendido el concepto de ruido Perlin, vas a pensar en una nueva manera de visualizarlo.
+
+  - Crea un nuevo sketch en p5.js donde los visualices.
+
+  - Explica el concepto qué resultados esberabas obtener.
+
+   Buscaba usar el ruido Perlin para mover los colores de fondo de forma suave. A diferencia del random, que cambia bruscamente, el noise() hace que todo se vea más fluido y bonito, el ruido perlin permite que sea todo de forma mas suave como se nota en el codigo.
+
+  - Copia el código en tu bitácora.
+
+´´´javascript
+
+    let xoff = 0;
+    let hueRandom = 0;
+    
+    function setup() {
+      createCanvas(600, 400);
+      colorMode(HSB, 255);
+      noStroke();
+      frameRate(10); // Para que los cambios se noten bien
+    }
+    
+    function draw() {
+      // --- Lado izquierdo: ruido Perlin ---
+      let hueNoise = noise(xoff) * 255;
+      fill(hueNoise, 200, 255);
+      rect(0, 0, width / 2, height);
+    
+      // --- Lado derecho: random puro ---
+      hueRandom = random(255);
+      fill(hueRandom, 200, 255);
+      rect(width / 2, 0, width / 2, height);
+    
+      // Texto descriptivo
+      fill(0);
+      textSize(20);
+      textAlign(CENTER, CENTER);
+      text("Perlin noise", width / 4, height - 30);
+      text("Random", (3 * width) / 4, height - 30);
+    
+      // Aumentar el valor de xoff poco a poco
+      xoff += 0.01;
+    }
+  ´´´
+
+
+  - Coloca en enlace a tu sketch en p5.js en tu bitácora.
+
+    https://editor.p5js.org/isaacrisi/sketches/a7lKIWhhs 
+    
+  - Selecciona una captura de pantalla de tu sketch y colócala en tu bitácora.
+
+    <img width="606" height="396" alt="image" src="https://github.com/user-attachments/assets/056b40c9-4b71-498e-b82f-286408806652" />
+
+    
+
+
 
 
   

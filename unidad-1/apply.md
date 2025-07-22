@@ -8,7 +8,7 @@ lo que tengo en mente para hacer es una obra donde el mouse sea como un centro d
 
 codigo 
 
-```
+```javascript
     let walkers = [];
     let cyclePhase = 0;
     

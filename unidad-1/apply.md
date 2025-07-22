@@ -8,7 +8,7 @@ lo que tengo en mente para hacer es una obra donde el mouse sea como un centro d
 
 codigo 
 
-'''
+```
     let walkers = [];
     let cyclePhase = 0;
     
@@ -110,4 +110,4 @@ codigo
         return constrain(u * 60, -200, 200);
       }
     }
-'''
+```

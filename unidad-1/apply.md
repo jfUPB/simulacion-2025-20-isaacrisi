@@ -6,7 +6,7 @@
 
 lo que tengo en mente para hacer es una obra donde el mouse sea como un centro de gravedad o algo similar que por donde pase cambie esa zona, voy a usar distribucion normal para que los colores queden por zonas cercanas al rojo y al negro, el ruido de perlin para que sean movimientos como sueaves y controlados, y usando el salto de levy para que hayan saltos largos y caoticos, cambiando lo que hace el ruido de perlin, esta obra busca representar de forma abstracta del flujo emocional y corporal que acompaña al periodo menstrual
 
-codigo 
+#### Código 
 
 ```javascript
     let walkers = [];
@@ -111,3 +111,10 @@ codigo
       }
     }
 ```
+#### link 
+
+[LINK_CODIGO](https://editor.p5js.org/isaacrisi/sketches/bEPQbFDRi) 
+
+#### Imagen 
+
+<img width="939" height="813" alt="image" src="https://github.com/user-attachments/assets/a6769ec8-394a-46eb-9598-56afea3c9798" />

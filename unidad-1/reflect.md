@@ -45,6 +45,12 @@
   buscaria otra forma de representar las particulas y que el reultado de las mismas no me encantó.
 
 
+### Atividad 10
+
+Tiene un concepto muy interesante y es entretenido de ver, siguiendo la rubrica merece un 5 cumplio con todo lo pedido y aparte es entretenido, al querer representar el animal me gustaria ver algo un poco mas agresivo o que se mueva de forma mas rapida o que pueda variar la velocidad de alguna forma, de resto me parece muy entretenido, mi compañero fue Juan Felipe Martinez
+
+https://github.com/jfUPB/simulacion-2025-20-ElJuanfe/blob/unidad1/apply/unidad-1/apply.md
+
 ### Actividad 11
 
 Responde a las siguientes preguntas con total sinceridad. No hay respuestas correctas o incorrectas.

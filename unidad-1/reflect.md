@@ -33,5 +33,15 @@
   El que pudo ser mas raro fueron las distribuciones de probabilidad pero como ya vi procesos estocasticos el semestre pasado fue facil de enteder
   
 - Describe un momento durante el desarrollo de tu obra final (Actividad 08) en el que un “error” o un resultado inesperado te llevó a una idea creativa interesante.
+
+  Algo que fue inesperado es que al hacer el salto de levy las perticulas desaparecian y aparecian, por lo que se me ocurrio que cuando pasase eso reapareciarn como dejando una estela mas grande tipo un punzon.
+  
 - Al combinar diferentes técnicas de aleatoriedad, ¿Cuál fue el mayor desafío? ¿La interacción entre los sistemas, el control de los parámetros, el rendimiento?
+
+  Lo mas dificil fue pensar en una aplicacion que mezclara todo de forma armonica y que no se sintiera forzada la utilizacion de esta.
+  
 - Si tuvieras que empezar la Actividad 08 de nuevo, ¿Qué harías de manera diferente basándote en lo que sabes ahora?
+
+  buscaria otra forma de representar las particulas y que el reultado de las mismas no me encantó.
+
+  

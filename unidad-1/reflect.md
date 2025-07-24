@@ -44,4 +44,28 @@
 
   buscaria otra forma de representar las particulas y que el reultado de las mismas no me encantó.
 
+
+### Actividad 11
+
+Responde a las siguientes preguntas con total sinceridad. No hay respuestas correctas o incorrectas.
+
+- Continuar: ¿Qué actividad, ejemplo o explicación de esta unidad te resultó más reveladora o útil para tu aprendizaje? ¿Qué deberíamos mantener sí o sí?
+
+  La actividad mas chevere fue la ultima, me parecio muy entretenida jugar con todos los conceptos que teniamos.
+
+- Dejar de hacer: ¿Hubo alguna actividad o concepto que te pareció redundante, confuso o menos útil? ¿Hay algo que eliminarías o cambiarías por completo?
+
+  No hubo nada que me pareciera asi como tedioso, algo probablemente reduntante en mi caso fue lo de las distribuciones de probabilidad porque ya lo habia visto pero es algo que se que no a todo el mundo le pasa y tambien es una forma distinta de verla.
+  
+- Empezar a hacer: ¿Qué te faltó en esta unidad? ¿Quizás más ejemplos de artistas, más desafíos técnicos, más teoría? ¿Qué idea tienes para hacerla mejor?
+
+  me hubiese gustado ver por curiosidad estos conceptos aplicados en obras de muy alto nivel tecnico para ver en que se pueden llegar a convertir
+  
+- Balance Teoría-Práctica: ¿Cómo sentiste el equilibrio entre analizar los ejemplos del texto guía y ponerte a programar tus propios sketches? Explica tu respuesta.
+
+  Me parecio muy bien el equilibrio fue apenas, es bueno como teoria y ahi mismo practicar las cosas y al final mezclarlas.
+  
+- Comentario Adicional: ¿Hay algo más que quieras compartir sobre tu experiencia en esta unidad?
+
+  Todo bien gracias a Dios 👍
   

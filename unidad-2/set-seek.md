@@ -15,7 +15,6 @@
 
 ### Actividad 2
 
--
 ```js
 // The Nature of Code
 // Daniel Shiffman
@@ -62,3 +61,13 @@ class Walker {
   }
 }
 ```
+
+### Actividad 3
+
+- El codigo va a copiuar en la consola primero el numero del vector original y luego el del valor modificado
+
+- se obtuvo el resultado esperado
+
+- En este codigo se pasa por referencia y aprendi que en este lenguaje solo se pueden hacer pasos por referencia, para poder hacer cambios en el valor sin modificar el vector original hay que crear una copia con la funcion copy()
+
+

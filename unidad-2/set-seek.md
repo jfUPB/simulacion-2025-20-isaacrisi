@@ -27,8 +27,8 @@ function setup() {
   createCanvas(640, 240);
   walker = new Walker();
   background(255);
-  position = createVector(width, height);
-  speed = createVector(2,2.5);
+  this.position = createVector(width, height);
+  this.speed = createVector(2,2.5);
   
 }
 
@@ -45,19 +45,19 @@ class Walker {
 
   show() {
     stroke(0);
-    point(position.x,position.y);
+    point(this.position.x,this.position.y);
   }
 
   step() {
     const choice = floor(random(4));
     if (choice == 0) {
-      position.x+speed.x;
+      this.position.x+this.speed.x;
     } else if (choice == 1) {
-      position.x--;
+      this.position.x--;
     } else if (choice == 2) {
-      position.y+speed.y;
+      this.position.this.y+speed.y;
     } else {
-      position.y--;
+      this.position.y--;
     }
   }
 }

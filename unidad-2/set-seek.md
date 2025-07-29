@@ -55,7 +55,7 @@ class Walker {
     } else if (choice == 1) {
       this.position.x--;
     } else if (choice == 2) {
-      this.position.this.y+speed.y;
+      this.position.y+this.speed.y;
     } else {
       this.position.y--;
     }

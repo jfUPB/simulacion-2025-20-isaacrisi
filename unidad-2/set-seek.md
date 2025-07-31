@@ -107,3 +107,22 @@ class Walker {
   - limit() sirve para que un vector no pase de cierta magnitud, por ejemplo para limitar la velocidad máxima.
 
 
+### Actividad 5
+
+- codigo
+
+  https://editor.p5js.org/isaacrisi/sketches/vQI_uHi7b
+
+- ¿Cómo funciona lerp() y lerpColor().
+
+  Permiten encontrar un valor intermedio entre dos cosas en el caso de lerp fue con vectores, y en el lerp color es entre colores, la funcion recibe los dos extremos y un factor que es el que determina en que punto está entre los dos
+
+- ¿Cómo se dibuja una flecha usando drawArrow()?
+
+  Draw arrow recibe el punto inicial y el punto final de la flecha,  su color, y la dibuja asi.
+
+### Actividad 6
+
+- Geometricamente el motion funciona como una suma de vectores de un vector de posicion mas uno de velociada que hacen que un objeto se mueva de forma constante.
+
+- En el ejemplo se usa para mover una bolita con dos vectores. 

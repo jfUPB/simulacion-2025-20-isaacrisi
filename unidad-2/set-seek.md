@@ -125,4 +125,19 @@ class Walker {
 
 - Geometricamente el motion funciona como una suma de vectores de un vector de posicion mas uno de velociada que hacen que un objeto se mueva de forma constante.
 
-- En el ejemplo se usa para mover una bolita con dos vectores. 
+- En el ejemplo se usa para mover una bolita con dos vectores.
+
+### Actividad 7
+
+- Aceleración constante:
+
+  El objeto empieza lento y cada vez se va moviendo más rápido, como cuando uno empieza a correr y va agarrando ritmo. Se siente parejo, sin sorpresas.
+
+- Aceleración aleatoria:
+  
+  El objeto se mueve como si estuviera confundido o nervioso, cambiando de dirección todo el tiempo. Da una sensación de desorden, como si no supiera a dónde va.
+
+- Aceleración hacia el mouse:
+
+  El objeto parece tener vida propia y te quiere seguir. Se siente curioso, como si fuera un perrito que corre detrás tuyo, a veces con más fuerza, a veces más suave, dependiendo de qué tan lejos estés.
+

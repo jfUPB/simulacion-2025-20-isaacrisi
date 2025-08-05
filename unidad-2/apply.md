@@ -69,7 +69,7 @@
       circle(this.position.x, this.position.y, 50);
     }
   }
-```
+  ```
 
   
 - Un enlace al proyecto en el editor de p5.js.
@@ -79,3 +79,4 @@
 - Una captura de pantalla representativa de tu pieza de arte generativo.
 
 <img width="870" height="800" alt="image" src="https://github.com/user-attachments/assets/f4e99db2-2127-4be4-9c91-b02e62e657f2" />
+

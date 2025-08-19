@@ -73,7 +73,8 @@
         this.acc = createVector(0, 0);
         this.mass = m;
         this.r = sqrt(this.mass) * 2;
-        this.hue = random(200, 300); // Para colores cósmicos tipo Aurelion Sol
+        this.hue = random(200, 300); // color cósmico
+        this.noiseOffset = createVector(random(1000), random(1000)); // posición para el ruido de Perlin
       }
     
       applyForce(force) {
@@ -90,7 +91,19 @@
         mover.applyForce(force);
       }
     
+      applyPerlinForce() {
+        let angle = noise(this.noiseOffset.x, this.noiseOffset.y) * TWO_PI * 2;
+        let mag = 0.05; // fuerza suave
+        let force = p5.Vector.fromAngle(angle);
+        force.setMag(mag);
+        this.applyForce(force);
+    
+        // Avanzamos en el espacio de ruido para cambiar con el tiempo
+        this.noiseOffset.add(0.01, 0.01);
+      }
+    
       update() {
+        this.applyPerlinForce(); // aplicar el ruido antes de actualizar
         this.vel.add(this.acc);
         this.pos.add(this.vel);
         this.acc.set(0, 0);
@@ -107,3 +120,4 @@
   ```
 - Captura una imagen representativa de tu ejemplo.
 <img width="799" height="786" alt="image" src="https://github.com/user-attachments/assets/1dc5b20a-45cf-43a1-8e69-cf1a791721d8" />
+

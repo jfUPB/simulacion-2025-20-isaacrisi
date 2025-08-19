@@ -6,9 +6,9 @@
 
 - Explica cómo modelaste el problema de los n-cuerpos en tu obra.
 
-  Modelé el problema de los n-cuerpos como un conjunto de partículas que se atraen entre sí mediante una fuerza parecida a la gravedad. Además, todas son atraídas por un "agujero negro" central que sigue al mouse. Para hacerlo más orgánico, Usé ruido de Perlin para simular una fuerza suave y variable que afecta a cada partícula. Esta fuerza genera movimientos orgánicos y no repetitivos, como una especie de "viento" digital. Es un guiño a las esculturas de Alexander Calder, que se movían de forma natural y fluida con el aire.
+    Modelé el problema de los n-cuerpos como un conjunto de partículas que se atraen entre sí mediante una fuerza parecida a la gravedad. Además, todas son atraídas por un "agujero negro" central que sigue al mouse. Para hacerlo más orgánico, Usé ruido de Perlin para   simular una fuerza suave y variable que afecta a cada partícula. Esta fuerza genera movimientos orgánicos y no repetitivos, como una especie de "viento" digital. Es un guiño a las esculturas de Alexander Calder, que se movían de forma natural y fluida con el aire.
 
-Así como sus móviles respondían al entorno con pequeños balanceos, el ruido de Perlin hace que las partículas en mi obra parezcan estar suspendidas y en constante ajuste, como si buscaran un equilibrio dinámico.
+    Así como sus móviles respondían al entorno con pequeños balanceos, el ruido de Perlin hace que las partículas en mi obra parezcan estar suspendidas y en constante ajuste, como si buscaran un equilibrio dinámico.
 El resultado es una danza caótica pero armónica, inspirada en el universo de Lol, especificamente en Aurelion Sol.
   <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0dde5788-9ea7-47c2-b020-73cbeef67d2b" />
 
@@ -123,6 +123,7 @@ El resultado es una danza caótica pero armónica, inspirada en el universo de L
   ```
 - Captura una imagen representativa de tu ejemplo.
 <img width="799" height="786" alt="image" src="https://github.com/user-attachments/assets/1dc5b20a-45cf-43a1-8e69-cf1a791721d8" />
+
 
 
 

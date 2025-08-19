@@ -12,7 +12,7 @@
   
 - Copia el enlace a tu simulación en p5.js.
 
-  https://editor.p5js.org/ 
+  https://editor.p5js.org/isaacrisi/sketches/apc8Wj3CC 
 
 - Copia el código.
 
@@ -120,4 +120,5 @@
   ```
 - Captura una imagen representativa de tu ejemplo.
 <img width="799" height="786" alt="image" src="https://github.com/user-attachments/assets/1dc5b20a-45cf-43a1-8e69-cf1a791721d8" />
+
 

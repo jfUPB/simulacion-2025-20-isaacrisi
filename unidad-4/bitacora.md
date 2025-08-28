@@ -16,7 +16,7 @@
 
 * ¿Qué concepto de la unidad 1 y cómo lo aplicaste en la obra?
 > Tu respuesta aquí:
-> Lo que use de la unidad uno es el levy flight para hacer los cambios de colores de las particulas.
+> Lo que use de la unidad uno es el levy flight para hacer los cambios de colores de las particulas. y las ondas siguen al mouse.
 
 ## ¿Cómo resolviste la interacción?
 > Tu respuesta aquí:
@@ -72,7 +72,7 @@ function draw() {
 
   // 🧠 Detectar beat
   if (energy > beatThreshold && millis() - lastBeatTime > beatDelay) {
-    waves.push(new Wave(width / 2, height / 2)); // <- onda nueva desde el centro
+    waves.push(new Wave(mouseX, mouseY));
     lastBeatTime = millis();
   }
 
@@ -175,6 +175,7 @@ function levyFlight() {
 
 
 <img width="876" height="686" alt="image" src="https://github.com/user-attachments/assets/84b65fa6-6393-4af1-ba36-66b6ad14aa81" />
+
 
 
 

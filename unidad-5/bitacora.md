@@ -24,6 +24,7 @@ https://editor.p5js.org/natureofcode/sketches/-xTbGZMim
 
 2do ejemplo 
 
+En este caso el sistema de particulas se maneja de la misma forma que el anterior on el metodo del lifespan y el splice, 
 
 
 

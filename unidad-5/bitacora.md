@@ -412,13 +412,12 @@ https://editor.p5js.org/isaacrisi/sketches/zBiaNoGjM
      // Cambia tipo de disparo con click
      shotType = (shotType + 1) % 2;
    }
-´´´
-
 
 
 # Evaluación de la Unidad 5: Partículas Interactivas
 
-## 1. Investigación y Experimentación (Evidencia en Actividad 2)  
+## 1. Investigación y Experimentación (Evidencia en Actividad 2)
+ 
 **Nota propuesta: 4.5 - 5.0 (Excelente)**
 
 - **Justificación**: Has realizado una serie de experimentaciones interesantes utilizando diferentes enfoques para el movimiento de partículas, como el *Levy Flight*, *Perlin Noise*, y el movimiento sinusoidal. Cada una de estas modificaciones es acompañada de explicaciones detalladas, como el uso de `levyFlightStep()` y `noise()` en lugar de una aleatorización básica, y la justificación de cómo estas técnicas afectan el comportamiento de las partículas.
@@ -449,6 +448,7 @@ https://editor.p5js.org/isaacrisi/sketches/zBiaNoGjM
 ## Resumen Final:
 - **Nota propuesta: 4.5 - 5.0 (Excelente)**
 - Has demostrado un dominio técnico excelente en la aplicación de conceptos previos, una organización clara y eficiente del código, y un diseño bien pensado para un sistema interactivo que funciona correctamente. Los elementos visuales y la interacción son coherentes con el concepto y están bien implementados. Todo el trabajo se presenta con un nivel de detalle que demuestra un fuerte entendimiento de los conceptos y habilidades necesarias para llevar a cabo el proyecto con éxito.
+
 
 
 

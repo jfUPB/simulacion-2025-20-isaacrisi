@@ -100,7 +100,7 @@ https://editor.p5js.org/natureofcode/sketches/H4TMayNak
 <img width="614" height="261" alt="image" src="https://github.com/user-attachments/assets/eb99f862-8b59-414f-a3cf-80ac0c4cf894" />
 
 
-## aply 
+## Apply 
 
 Haciendo el ultimo ejercicio vi algo interesante y es que al poner el punto de repulsion como casi donde es el emisor de las particulas da la impresion de que esta disparando, por lo que quiero hacer la obra desde ese punto,  no pense como en un significado mas profundo que meramente diversion y ver algo que se podria ver interesante o incluso llevarse a un juego, como una especie de shooter ahi medio suave, voy a intentar hacer un arma que se pueda ir moviendo con el mouse y que se generen algunos cuadrados en el fondo que se puedan romper con o desaparecer al darles. 
 
@@ -412,7 +412,7 @@ https://editor.p5js.org/isaacrisi/sketches/zBiaNoGjM
      // Cambia tipo de disparo con click
      shotType = (shotType + 1) % 2;
    }
-
+´´´
 
 # Evaluación de la Unidad 5: Partículas Interactivas
 
@@ -424,7 +424,8 @@ https://editor.p5js.org/isaacrisi/sketches/zBiaNoGjM
   
 - **Evidencia**: La implementación de *Levy Flight* y *Perlin Noise* muestra un enfoque consciente de la variabilidad y complejidad del sistema de partículas. También, el cambio en el comportamiento de las partículas, como las interacciones con la fuerza de repulsión basada en la distancia al ratón, es bien explicado. Todo esto, junto con los enlaces a los ejemplos y los comentarios sobre el código, muestra un análisis y una experimentación que van más allá de lo superficial.
 
-## 2. Intención y Diseño (Proceso de Actividad 3)  
+## 2. Intención y Diseño (Proceso de Actividad 3)
+  
 **Nota propuesta: 4.5 - 5.0 (Excelente)**
 
 - **Justificación**: Tu bitácora presenta un concepto claro, específicamente la idea de un "arma de partículas" controlada por el mouse. La transición de la idea de un sistema de partículas interactivo a un concepto de juego tipo *shooter* está bien documentada. Además, presentas artefactos de diseño visualmente coherentes y diagramas que ayudan a explicar las decisiones tomadas.
@@ -448,13 +449,3 @@ https://editor.p5js.org/isaacrisi/sketches/zBiaNoGjM
 ## Resumen Final:
 - **Nota propuesta: 4.5 - 5.0 (Excelente)**
 - Has demostrado un dominio técnico excelente en la aplicación de conceptos previos, una organización clara y eficiente del código, y un diseño bien pensado para un sistema interactivo que funciona correctamente. Los elementos visuales y la interacción son coherentes con el concepto y están bien implementados. Todo el trabajo se presenta con un nivel de detalle que demuestra un fuerte entendimiento de los conceptos y habilidades necesarias para llevar a cabo el proyecto con éxito.
-
-
-
-
-
-
-
-
-
-

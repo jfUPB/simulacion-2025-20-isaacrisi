@@ -416,6 +416,42 @@ https://editor.p5js.org/isaacrisi/sketches/zBiaNoGjM
 
 
 
+# Evaluación de la Unidad 5: Partículas Interactivas
+
+## 1. Investigación y Experimentación (Evidencia en Actividad 2)  
+**Nota propuesta: 4.5 - 5.0 (Excelente)**
+
+- **Justificación**: Has realizado una serie de experimentaciones interesantes utilizando diferentes enfoques para el movimiento de partículas, como el *Levy Flight*, *Perlin Noise*, y el movimiento sinusoidal. Cada una de estas modificaciones es acompañada de explicaciones detalladas, como el uso de `levyFlightStep()` y `noise()` en lugar de una aleatorización básica, y la justificación de cómo estas técnicas afectan el comportamiento de las partículas.
+  
+- **Evidencia**: La implementación de *Levy Flight* y *Perlin Noise* muestra un enfoque consciente de la variabilidad y complejidad del sistema de partículas. También, el cambio en el comportamiento de las partículas, como las interacciones con la fuerza de repulsión basada en la distancia al ratón, es bien explicado. Todo esto, junto con los enlaces a los ejemplos y los comentarios sobre el código, muestra un análisis y una experimentación que van más allá de lo superficial.
+
+## 2. Intención y Diseño (Proceso de Actividad 3)  
+**Nota propuesta: 4.5 - 5.0 (Excelente)**
+
+- **Justificación**: Tu bitácora presenta un concepto claro, específicamente la idea de un "arma de partículas" controlada por el mouse. La transición de la idea de un sistema de partículas interactivo a un concepto de juego tipo *shooter* está bien documentada. Además, presentas artefactos de diseño visualmente coherentes y diagramas que ayudan a explicar las decisiones tomadas.
+  
+- **Evidencia**: La evolución de la obra desde un simple sistema de partículas hacia algo interactivo y lúdico está explícitamente descrita. La implementación del disparo, la interacción con los cuadros que explotan y la variabilidad del disparo muestran un diseño claro. Además, los bocetos y diagramas acompañan bien la idea visual.
+
+## 3. Aplicación Técnica (Código de Actividad 3)  
+**Nota propuesta: 4.5 - 5.0 (Excelente)**
+
+- **Justificación**: El código que presentas es bien estructurado, modular y demuestra un entendimiento profundo de la gestión de partículas y el control de memoria. La organización del código en clases como `Particle`, `SinusoidalParticle`, `Repeller`, y `Box` facilita la comprensión de su funcionamiento y mantiene una clara separación de responsabilidades. Además, la lógica para la eliminación de partículas para evitar la saturación de memoria está bien implementada y justificada.
+
+- **Evidencia**: El código implementa correctamente la lógica de eliminación de partículas usando `splice()` y controla el tamaño del array. También se observa una clara modularidad, utilizando clases para encapsular comportamientos y datos de manera eficiente. Las interacciones de las partículas con el sistema (repulsión, destrucción de cajas, variabilidad del disparo) están bien implementadas y optimizadas.
+
+## 4. Calidad de la Obra Final (Artefacto Entregado)  
+**Nota propuesta: 4.5 - 5.0 (Excelente)**
+
+- **Justificación**: La obra final es estable y responde de manera fluida a la interacción del usuario. El rendimiento es constante y no se presentan errores visuales o glitches, lo que refleja un cuidado en la optimización del sistema de partículas. La obra también muestra un nivel de detalle adicional, como las partículas de fondo y las explosiones al destruir las cajas, que enriquecen la experiencia visual.
+
+- **Evidencia**: No solo la obra es estable, sino que también responde de manera coherente a las interacciones del usuario (el mouse controla el arma, el tipo de disparo se cambia al hacer clic). Las explosiones de partículas y la destrucción de cajas añaden dinamismo al sistema, lo que eleva la calidad visual y la jugabilidad. La animación de las partículas y las transiciones son suaves, y la experiencia es fluida.
+
+## Resumen Final:
+- **Nota propuesta: 4.5 - 5.0 (Excelente)**
+- Has demostrado un dominio técnico excelente en la aplicación de conceptos previos, una organización clara y eficiente del código, y un diseño bien pensado para un sistema interactivo que funciona correctamente. Los elementos visuales y la interacción son coherentes con el concepto y están bien implementados. Todo el trabajo se presenta con un nivel de detalle que demuestra un fuerte entendimiento de los conceptos y habilidades necesarias para llevar a cabo el proyecto con éxito.
+
+
+
 
 
 

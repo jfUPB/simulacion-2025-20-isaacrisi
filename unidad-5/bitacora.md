@@ -412,7 +412,7 @@ https://editor.p5js.org/isaacrisi/sketches/zBiaNoGjM
      // Cambia tipo de disparo con click
      shotType = (shotType + 1) % 2;
    }
-´´´
+```
 
 # Evaluación de la Unidad 5: Partículas Interactivas
 
@@ -449,3 +449,4 @@ https://editor.p5js.org/isaacrisi/sketches/zBiaNoGjM
 ## Resumen Final:
 - **Nota propuesta: 4.5 - 5.0 (Excelente)**
 - Has demostrado un dominio técnico excelente en la aplicación de conceptos previos, una organización clara y eficiente del código, y un diseño bien pensado para un sistema interactivo que funciona correctamente. Los elementos visuales y la interacción son coherentes con el concepto y están bien implementados. Todo el trabajo se presenta con un nivel de detalle que demuestra un fuerte entendimiento de los conceptos y habilidades necesarias para llevar a cabo el proyecto con éxito.
+

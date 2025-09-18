@@ -447,6 +447,7 @@ https://editor.p5js.org/isaacrisi/sketches/zBiaNoGjM
 - **Evidencia**: No solo la obra es estable, sino que también responde de manera coherente a las interacciones del usuario (el mouse controla el arma, el tipo de disparo se cambia al hacer clic). Las explosiones de partículas y la destrucción de cajas añaden dinamismo al sistema, lo que eleva la calidad visual y la jugabilidad. La animación de las partículas y las transiciones son suaves, y la experiencia es fluida.
 
 ## Resumen Final:
-- **Nota propuesta: 4.5 - 5.0 (Excelente)**
+- **Nota propuesta: 5.0 (Excelente)**
 - Has demostrado un dominio técnico excelente en la aplicación de conceptos previos, una organización clara y eficiente del código, y un diseño bien pensado para un sistema interactivo que funciona correctamente. Los elementos visuales y la interacción son coherentes con el concepto y están bien implementados. Todo el trabajo se presenta con un nivel de detalle que demuestra un fuerte entendimiento de los conceptos y habilidades necesarias para llevar a cabo el proyecto con éxito.
+
 

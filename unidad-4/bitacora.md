@@ -176,7 +176,40 @@ function levyFlight() {
 
 <img width="876" height="686" alt="image" src="https://github.com/user-attachments/assets/84b65fa6-6393-4af1-ba36-66b6ad14aa81" />
 
+### Rubrica
 
+## 1. Investigación y Experimentación (Evidencia en Actividad 2): Excelente (4.5 - 5.0)
+
+# Justificación:
+
+En la bitácora, se puede observar que se ha hecho un análisis profundo de los ejemplos previos, con explicaciones detalladas sobre cómo se gestionan las partículas, cómo se manipulan las frecuencias musicales y cómo se aplica el concepto de movimiento sinodal (ondas) para el control de las partículas y su interacción con el audio. Además, se justifican las decisiones de diseño con ejemplos claros de cómo los conceptos de unidades anteriores (como vectores, aceleración y Levy Flight) se integran para lograr los efectos visuales y la interacción deseada.
+El código refleja un manejo adecuado de la memoria, especialmente en la creación y eliminación de ondas, y la gestión del array de partículas está correctamente controlada para evitar sobrecargas de datos.
+
+## 2. Intención y Diseño (Proceso de Actividad 3): Excelente (4.5 - 5.0)
+
+# Justificación:
+
+El concepto está claramente definido en la bitácora, y los artefactos de diseño están bien representados en el código. El propósito de la interacción (interacción musical y visual) está claramente descrito, y las decisiones de diseño están bien fundamentadas. La descripción en la bitácora del uso del sonido como input para la creación de ondas y la modulación de las partículas a través del audio es sólida. La obra final refleja directamente lo planeado, con una implementación que responde a la interacción del usuario de manera coherente, variada y atractiva.
+El concepto de las ondas de sonido, combinadas con el movimiento senoidal de las partículas, es una clara manifestación de la idea original del proyecto.
+
+## 3. Aplicación Técnica (Código de Actividad 3): Excelente (4.5 - 5.0)
+
+# Justificación:
+
+El código está bien estructurado, utilizando clases modulares tanto para las partículas (Mover) como para las ondas (Wave). La implementación del movimiento sinodal de las partículas y la interacción con el audio a través de la FFT está correctamente ejecutada. Además, el uso de herencia y la modularización del código permiten una mejor organización y control de los diferentes elementos. La gestión de la memoria es adecuada, ya que las partículas innecesarias se eliminan cuando ya no son necesarias, y el tamaño del array se mantiene controlado.
+El uso de Levy Flight para la variación de color y la optimización de cálculos dentro del bucle principal (draw) demuestra un enfoque técnico eficiente.
+
+## 4. Calidad de la Obra Final (Artefacto Entregado): Excelente (4.5 - 5.0)
+
+# Justificación:
+
+La obra es estable, y la interacción con el usuario es fluida. Las partículas responden al ritmo de la música de manera coherente, y la transición de colores y las ondas generadas muestran un nivel de detalle y variabilidad bien logrado. El rendimiento es constante, y el sistema generativo produce una amplia variedad de resultados visuales sin perder coherencia con el concepto inicial. La implementación del cambio de color al presionar la tecla espacio agrega un nivel interactivo adicional que mejora la experiencia del usuario. Además, se observa que las ondas de sonido afectan las partículas de manera eficiente, sin afectar negativamente el rendimiento del programa. La obra demuestra atención al detalle en cuanto a la estética, con transiciones suaves y un feedback visual claro.
+
+## Nota Final Propuesta: 5.0 (Excelente)
+
+# Resumen:
+
+La bitácora demuestra una profunda comprensión y aplicación de los conceptos teóricos en la obra final. El código es eficiente, bien organizado, y responde adecuadamente a la interacción del usuario. Los conceptos de las unidades anteriores se aplican de manera efectiva y están justificados de manera clara en la bitácora. La obra final es estable, interactiva y visualmente atractiva, cumpliendo con los estándares más altos de la rúbrica.
 
 
 

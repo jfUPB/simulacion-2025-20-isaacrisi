@@ -176,10 +176,3 @@ function levyFlight() {
 
 <img width="876" height="686" alt="image" src="https://github.com/user-attachments/assets/84b65fa6-6393-4af1-ba36-66b6ad14aa81" />
 
-
-
-
-
-
-
-

@@ -34,21 +34,23 @@ El campo de flujo se almacena como un array 2D donde cada celda contiene un vect
 Modifiqué la generación inicial de los vehículos para que sus posiciones se distribuyeran siguiendo una distribución normal centrada en el medio del canvas en lugar de una distribución uniforme, lo que hizo que los agentes comenzaran agrupados en el centro y luego se dispersaran siguiendo el flujo del campo, generando un comportamiento más concentrado inicialmente y un movimiento colectivo que parte de un núcleo denso hacia el resto del espacio.
 
 ´´´js 
-function setup() {
-  let text = createP(
-    "Hit space bar to toggle debugging lines.<br>Click the mouse to generate a new flow field."
-  );
 
-  createCanvas(640, 240);
-  flowfield = new FlowField(20);
-
-  for (let i = 0; i < 120; i++) {
-    // Generar con distribución normal centrada en el medio de la pantalla
-    let x = constrain(randomGaussian(width / 2, width / 8), 0, width);
-    let y = constrain(randomGaussian(height / 2, height / 8), 0, height);
-    vehicles.push(new Vehicle(x, y, random(2, 5), random(0.1, 0.5)));
+  function setup() {
+    let text = createP(
+      "Hit space bar to toggle debugging lines.<br>Click the mouse to generate a new flow field."
+    );
+    createCanvas(640, 240);
+    flowfield = new FlowField(20);
+  
+    for (let i = 0; i < 120; i++) {
+      // Generar con distribución normal centrada en el medio de la pantalla
+      let x = constrain(randomGaussian(width / 2, width / 8), 0, width);
+      let y = constrain(randomGaussian(height / 2, height / 8), 0, height);
+      vehicles.push(new Vehicle(x, y, random(2, 5), random(0.1, 0.5)));
+    }
   }
-}
+
 ```
+
 
 

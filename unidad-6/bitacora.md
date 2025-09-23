@@ -49,9 +49,10 @@ Modifiqué la generación inicial de los vehículos para que sus posiciones se d
       vehicles.push(new Vehicle(x, y, random(2, 5), random(0.1, 0.5)));
     }
     }
+```
 
 
-´´´
+
 
 
 

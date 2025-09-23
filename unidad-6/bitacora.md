@@ -35,12 +35,12 @@ Modifiqué la generación inicial de los vehículos para que sus posiciones se d
 
 ´´´js 
 
-  function setup() {
-    let text = createP(
-      "Hit space bar to toggle debugging lines.<br>Click the mouse to generate a new flow field."
-    );
-    createCanvas(640, 240);
-    flowfield = new FlowField(20);
+    function setup() {
+      let text = createP(
+        "Hit space bar to toggle debugging lines.<br>Click the mouse to generate a new flow field."
+      );
+      createCanvas(640, 240);
+      flowfield = new FlowField(20);
   
     for (let i = 0; i < 120; i++) {
       // Generar con distribución normal centrada en el medio de la pantalla
@@ -48,9 +48,10 @@ Modifiqué la generación inicial de los vehículos para que sus posiciones se d
       let y = constrain(randomGaussian(height / 2, height / 8), 0, height);
       vehicles.push(new Vehicle(x, y, random(2, 5), random(0.1, 0.5)));
     }
-  }
+    }
 
 ```
+
 
 
 

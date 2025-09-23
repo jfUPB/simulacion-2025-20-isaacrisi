@@ -33,7 +33,7 @@ El campo de flujo se almacena como un array 2D donde cada celda contiene un vect
 
 Modifiqué la generación inicial de los vehículos para que sus posiciones se distribuyeran siguiendo una distribución normal centrada en el medio del canvas en lugar de una distribución uniforme, lo que hizo que los agentes comenzaran agrupados en el centro y luego se dispersaran siguiendo el flujo del campo, generando un comportamiento más concentrado inicialmente y un movimiento colectivo que parte de un núcleo denso hacia el resto del espacio.
 
-´´´ js 
+```js 
 
     function setup() {
       let text = createP(
@@ -50,7 +50,8 @@ Modifiqué la generación inicial de los vehículos para que sus posiciones se d
     }
     }
 
-```
+
+´´´
 
 
 

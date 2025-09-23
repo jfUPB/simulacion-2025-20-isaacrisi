@@ -51,6 +51,55 @@ Modifiqué la generación inicial de los vehículos para que sus posiciones se d
     }
 ```
 
+<img width="692" height="263" alt="image" src="https://github.com/user-attachments/assets/11de2cc9-4585-4f75-afd4-ee16be14afae" />
+
+## Actividad 4
+
+La separación busca evitar que los agentes se amontonen calculando un vector que los aleja de vecinos muy cercanos, la alineación intenta que los agentes coincidan su dirección con el promedio de la velocidad de vecinos cercanos, y la cohesión mueve a los agentes hacia la posición promedio de sus vecinos para mantener el grupo unido. Los parámetros clave son el radio de percepción que define el rango para considerar vecinos, los pesos que ajustan la influencia relativa de separación, alineación y cohesión, y la velocidad máxima y fuerza máxima de cada agente.
+
+Se añadió una fuerza perpendicular al vector hacia el centro para que cada boid gire alrededor de ese punto, generando un movimiento circular colectivo y una línea rotando en grupo.
+
+``` js
+    orbit(center) {
+      // Vector desde boid hacia el centro
+      let toCenter = p5.Vector.sub(center, this.position);
+      // Vector perpendicular para la fuerza de órbita
+      let orbitForce = createVector(-toCenter.y, toCenter.x);
+      orbitForce.normalize();
+      orbitForce.mult(0.1); // Ajusta la intensidad de la órbita
+      this.applyForce(orbitForce);
+    }
+
+```
+
+``` js
+
+flock(boids) {
+  let sep = this.separate(boids);
+  let ali = this.align(boids);
+  let coh = this.cohere(boids);
+
+  sep.mult(1.5);
+  ali.mult(1.0);
+  coh.mult(1.0);
+
+  this.applyForce(sep);
+  this.applyForce(ali);
+  this.applyForce(coh);
+
+  // Agregar fuerza para orbitar alrededor del centro de la pantalla
+  let center = createVector(width / 2, height / 2);
+  this.orbit(center);
+}
+
+
+```
+https://github.com/user-attachments/assets/4f70cb86-5745-4866-b394-fcc6b529f38c
+
+
+
+
+
 
 
 

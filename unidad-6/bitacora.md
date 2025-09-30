@@ -174,6 +174,13 @@ Dentro del método flock(boids) de la clase Boid, cambié los multiplicadores de
 
 ```
 
+<img width="635" height="247" alt="image" src="https://github.com/user-attachments/assets/079e49b3-70f3-4b05-9fc3-1464b05169d1" />
+
+# Apply
+
+
+
+
 
 
 

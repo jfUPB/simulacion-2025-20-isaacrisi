@@ -99,35 +99,35 @@ https://github.com/user-attachments/assets/4f70cb86-5745-4866-b394-fcc6b529f38c
 
 ## Actividad 4
 
-1. Reglas del Flocking
+### 1. Reglas del Flocking
 
-Separación (Separation)
+- Separación (Separation)
 
-Objetivo: Evitar que los agentes se amontonen o choquen entre sí.
+- Objetivo: Evitar que los agentes se amontonen o choquen entre sí.
 
-Lógica: Cada boid calcula un vector que apunta en dirección contraria a los vecinos demasiado cercanos. Entre más cerca esté un vecino, más fuerte es el empuje de alejamiento.
+- Lógica: Cada boid calcula un vector que apunta en dirección contraria a los vecinos demasiado cercanos. Entre más cerca esté un vecino, más fuerte es el empuje de alejamiento.
 
-Alineación (Alignment)
+- Alineación (Alignment)
 
-Objetivo: Hacer que los boids se muevan en una dirección similar, como si siguieran la corriente del grupo.
+- Objetivo: Hacer que los boids se muevan en una dirección similar, como si siguieran la corriente del grupo.
 
-Lógica: El boid promedia las velocidades de sus vecinos y genera un vector que lo empuja a alinearse con esa dirección promedio.
+- Lógica: El boid promedia las velocidades de sus vecinos y genera un vector que lo empuja a alinearse con esa dirección promedio.
 
-Cohesión (Cohesion)
+- Cohesión (Cohesion)
 
-Objetivo: Mantener al grupo unido sin que se disperse demasiado.
+- Objetivo: Mantener al grupo unido sin que se disperse demasiado.
 
-Lógica: El boid calcula la posición promedio de sus vecinos cercanos y genera un vector que lo dirige hacia ese centro, como si buscara mantenerse dentro del “enjambre”.
+- Lógica: El boid calcula la posición promedio de sus vecinos cercanos y genera un vector que lo dirige hacia ese centro, como si buscara mantenerse dentro del “enjambre”.
 
-2. Parámetros clave identificados
+### 2. Parámetros clave identificados
 
-Radio de percepción:
+- Radio de percepción:
 
 desiredSeparation = 25 (para separación).
 
 neighborDistance = 50 (para alineación y cohesión).
 
-Pesos de las reglas:
+- Pesos de las reglas:
 
 Separación: 1.5
 
@@ -135,13 +135,13 @@ Alineación: 1.0
 
 Cohesión: 1.0
 
-Velocidad y fuerza máximas:
+- Velocidad y fuerza máximas:
 
 maxspeed = 3
 
 maxforce = 0.05
 
-3. Modificación y efectos observados
+### 3. Modificación y efectos observados
 
 Modificación realizada: Se aumentó de forma drástica el peso de la regla de Separación y se redujo la Cohesión a cero.
 
@@ -149,7 +149,7 @@ Efecto observado:
 El comportamiento colectivo cambió notablemente. Los boids comenzaron a evitarse mucho entre sí, lo que generó un enjambre mucho más disperso y desordenado. Ya no se formaban grupos compactos, sino que los agentes mantenían grandes distancias y se movían de manera caótica por toda la pantalla.
 La ausencia de cohesión eliminó la tendencia a reagruparse, así que cada boid terminó siguiendo más su propia ruta, solo corrigiendo su movimiento para no acercarse demasiado a otros.
 
-4. Fragmento de código modificado
+### 4. Fragmento de código modificado
 
 Dentro del método flock(boids) de la clase Boid, cambié los multiplicadores de cada fuerza:
 
@@ -173,6 +173,7 @@ Dentro del método flock(boids) de la clase Boid, cambié los multiplicadores de
 }
 
 ```
+
 
 
 

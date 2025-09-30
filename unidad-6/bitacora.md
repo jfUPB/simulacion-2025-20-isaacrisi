@@ -180,6 +180,7 @@ Dentro del método flock(boids) de la clase Boid, cambié los multiplicadores de
 
 
 
+https://editor.p5js.org/isaacrisi/sketches/ks4seTPCy
 
 
 

@@ -248,7 +248,9 @@ https://editor.p5js.org/isaacrisi/sketches/exnEg-9mZ
 
 
 
-![Grabación 2025-10-16 132542](https://github.com/user-attachments/assets/2f62a815-eb07-48e6-a6a1-2e21002228c2)
+![Grabación 2025-10-16 132716](https://github.com/user-attachments/assets/0a3221fb-ec17-4229-ac78-bb5962f3fe85)
+
+
 
 
 

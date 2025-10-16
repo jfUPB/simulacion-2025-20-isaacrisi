@@ -251,8 +251,9 @@ https://editor.p5js.org/isaacrisi/sketches/exnEg-9mZ
 ![Grabación 2025-10-16 132716](https://github.com/user-attachments/assets/0a3221fb-ec17-4229-ac78-bb5962f3fe85)
 
 
+# Autoevaluacion 
 
-
+5: realicé las 3 actividades completas y la autoevaluación.
 
 
 

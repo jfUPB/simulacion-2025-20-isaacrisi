@@ -248,13 +248,15 @@ https://editor.p5js.org/isaacrisi/sketches/exnEg-9mZ
 <img width="778" height="389" alt="image" src="https://github.com/user-attachments/assets/3f865166-a4e7-4c78-98c8-b05c6cf53b21" />
 
 
+![Grabación 2025-10-16 133502](https://github.com/user-attachments/assets/9db74734-352a-41a8-9911-b25925e42f96)
 
-![Grabación 2025-10-16 132716](https://github.com/user-attachments/assets/0a3221fb-ec17-4229-ac78-bb5962f3fe85)
+
 
 
 # Autoevaluacion 
 
 5: realicé las 3 actividades completas y la autoevaluación.
+
 
 
 

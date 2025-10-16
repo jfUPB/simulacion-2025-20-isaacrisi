@@ -244,7 +244,8 @@ function mousePressed() {
 ```
 https://editor.p5js.org/isaacrisi/sketches/exnEg-9mZ
 
-<img width="795" height="376" alt="image" src="https://github.com/user-attachments/assets/c54c957c-92bd-4d55-997a-75225c0313a7" />
+
+<img width="778" height="389" alt="image" src="https://github.com/user-attachments/assets/3f865166-a4e7-4c78-98c8-b05c6cf53b21" />
 
 
 
@@ -254,6 +255,7 @@ https://editor.p5js.org/isaacrisi/sketches/exnEg-9mZ
 # Autoevaluacion 
 
 5: realicé las 3 actividades completas y la autoevaluación.
+
 
 
 

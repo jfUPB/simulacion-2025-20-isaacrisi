@@ -139,6 +139,24 @@ function draw() {
 la mayor dificultad fue poder configurar la libreria
 
 
+## Apply
+
+## Animación física – “PUNCH”
+
+### Idea
+La palabra **“PUNCH”** se representa con letras como cuerpos rígidos.  
+La **“P”** tiene una fuerza inicial hacia la derecha, golpeando las letras “U”, “N”, “C” y “H”, que reaccionan con colisiones y rebotan.  
+El mundo tiene gravedad baja y límites laterales invisibles.  
+
+### Configuración física
+- **Gravedad:** leve (0.5) para que las letras no caigan demasiado rápido.  
+- **Elasticidad (restitución):** moderada (0.6) para un efecto de rebote.  
+- **Fricción:** baja (0.2) para permitir desplazamiento fluido.  
+- **Interacción:** clic del usuario reinicia la animación.  
+
+### Código (p5.js + Matter.js)
+```javascript
+
 
 
 

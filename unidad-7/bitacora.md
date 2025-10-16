@@ -141,21 +141,108 @@ la mayor dificultad fue poder configurar la libreria
 
 ## Apply
 
-## Animación física – “PUNCH”
+# Animación Física: “PUNCH”
 
-### Idea
-La palabra **“PUNCH”** se representa con letras como cuerpos rígidos.  
-La **“P”** tiene una fuerza inicial hacia la derecha, golpeando las letras “U”, “N”, “C” y “H”, que reaccionan con colisiones y rebotan.  
-El mundo tiene gravedad baja y límites laterales invisibles.  
+## Palabra elegida
+**PUNCH**
 
-### Configuración física
-- **Gravedad:** leve (0.5) para que las letras no caigan demasiado rápido.  
-- **Elasticidad (restitución):** moderada (0.6) para un efecto de rebote.  
-- **Fricción:** baja (0.2) para permitir desplazamiento fluido.  
-- **Interacción:** clic del usuario reinicia la animación.  
+## Idea conceptual
+La animación representa la palabra **“PUNCH”** (“golpe”) haciendo que la **letra P actúe como un puño** que se lanza con fuerza hacia las demás letras, empujándolas y provocando colisiones y rebotes. Este movimiento comunica visualmente el impacto y energía del concepto.
 
-### Código (p5.js + Matter.js)
+## Aspectos técnicos
+- Cada letra se modeló como un **cuerpo rectangular** de Matter.js, usando `Bodies.rectangle()`.
+- La **“P”** recibe una **velocidad inicial alta** (`Body.setVelocity`) y se ubica más a la izquierda para simular el recorrido del golpe.
+- Las demás letras reaccionan mediante el motor físico con **colisiones elásticas** (restitución = 0.6).
+- El mundo tiene **gravedad leve** y **límites invisibles** (suelo y paredes).
+- No se usaron restricciones; toda la interacción es libre y dinámica.
+- Al hacer clic se **reinicia la animación**, permitiendo repetir el golpe.
+
+## Código completo
+
 ```javascript
+// Animación: "PUNCH" donde la P golpea a las demás letras con más fuerza
+
+// Módulos Matter.js
+const Engine = Matter.Engine;
+const World = Matter.World;
+const Bodies = Matter.Bodies;
+const Body = Matter.Body;
+
+let engine, world;
+let letters = [];
+let ground, leftWall, rightWall;
+
+function setup() {
+  createCanvas(800, 400);
+  engine = Engine.create();
+  world = engine.world;
+
+  // Gravedad leve
+  engine.world.gravity.y = 0.5;
+
+  // Suelo y paredes invisibles
+  let options = { isStatic: true };
+  ground = Bodies.rectangle(400, height, 800, 50, options);
+  leftWall = Bodies.rectangle(0, 200, 50, 400, options);
+  rightWall = Bodies.rectangle(800, 200, 50, 400, options);
+  World.add(world, [ground, leftWall, rightWall]);
+
+  // Crear letras como cuerpos rectangulares
+  const word = "PUNCH";
+  let startX = 250;
+
+  for (let i = 0; i < word.length; i++) {
+    let letter = word[i];
+    let box = Bodies.rectangle(startX + i * 80, 200, 60, 80, {
+      restitution: 0.6,
+      friction: 0.2,
+      density: 0.002
+    });
+    box.label = letter;
+    letters.push(box);
+  }
+
+  World.add(world, letters);
+
+  // Mover la "P" más lejos a la izquierda y darle más velocidad
+  Body.setPosition(letters[0], { x: 80, y: 200 });
+  Body.setVelocity(letters[0], { x: 15, y: -3 });
+}
+
+function draw() {
+  background(230);
+  Engine.update(engine);
+
+  // Dibujar letras
+  textAlign(CENTER, CENTER);
+  textSize(64);
+  noStroke();
+  fill(30);
+
+  for (let b of letters) {
+    push();
+    translate(b.position.x, b.position.y);
+    rotate(b.angle);
+    text(b.label, 0, 10);
+    pop();
+  }
+}
+
+// Reiniciar animación con clic
+function mousePressed() {
+  const word = "PUNCH";
+  let startX = 250;
+  for (let i = 0; i < letters.length; i++) {
+    Body.setPosition(letters[i], { x: startX + i * 80, y: 200 });
+    Body.setVelocity(letters[i], { x: 0, y: 0 });
+    Body.setAngle(letters[i], 0);
+  }
+  // Recolocar la "P" más a la izquierda y con más fuerza
+  Body.setPosition(letters[0], { x: 80, y: 200 });
+  Body.setVelocity(letters[0], { x: 15, y: -3 });
+}
+```
+https://editor.p5js.org/isaacrisi/sketches/exnEg-9mZ
 
 
 

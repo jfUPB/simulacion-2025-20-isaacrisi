@@ -244,6 +244,15 @@ function mousePressed() {
 ```
 https://editor.p5js.org/isaacrisi/sketches/exnEg-9mZ
 
+<img width="795" height="376" alt="image" src="https://github.com/user-attachments/assets/c54c957c-92bd-4d55-997a-75225c0313a7" />
+
+
+
+![Grabación 2025-10-16 132542](https://github.com/user-attachments/assets/2f62a815-eb07-48e6-a6a1-2e21002228c2)
+
+
+
+
 
 
 

@@ -76,9 +76,10 @@ Crea un mundo con gravedad, cuerpos dinámicos y un suelo estático.
     rectMode(CENTER);
     rect(ground.position.x, ground.position.y, 600, 20);
   }
-´´´
+```
 <img width="604" height="400" alt="image" src="https://github.com/user-attachments/assets/5d9c5ef3-11e6-4f10-98b8-4f8ab22bebd7" />
 
+```javascript
 // Experimento 2 - Interacción con MouseConstraint
 const Engine = Matter.Engine;
 const World = Matter.World;
@@ -130,8 +131,13 @@ function draw() {
   rectMode(CENTER);
   rect(ground.position.x, ground.position.y, 600, 20);
 }
-´´´
+```
+
+<img width="615" height="406" alt="image" src="https://github.com/user-attachments/assets/3436aabc-1d50-4d79-9dc3-4072ceb3cf77" />
+
+
 la mayor dificultad fue poder configurar la libreria
+
 
 
 

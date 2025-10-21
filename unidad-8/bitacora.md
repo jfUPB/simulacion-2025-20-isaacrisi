@@ -40,10 +40,15 @@ Cada performance se siente como un instante irrepetible.
 # Actividad 2
 
 Cancion: [https://youtu.be/pl2K9rvsS74 ](https://youtu.be/pl2K9rvsS74) 
+
 Paint the town blue (ashiniko) 
+
 Quiero seguir como mucho el estilo de lo arcano y de la parte tambien de zaun con los jinxers como por un lado esa parte de la magia con lo arcano y las runas salvajes y por otro lado el humo y lo agresivo de los jinxers.
+
 quiero manjear mucho cambios de color, de forma tamaños y los flowfields que voy a manejar 
+
 flow fields, particulas y motion 101
+
 
 
 

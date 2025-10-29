@@ -287,6 +287,11 @@ https://editor.p5js.org/isaacrisi/sketches/sKaAfeeik
 <img width="403" height="331" alt="image" src="https://github.com/user-attachments/assets/44657c09-9ca8-4266-8195-f495787bee94" />
 <img width="827" height="737" alt="image" src="https://github.com/user-attachments/assets/63cfd74d-af15-4d21-8e42-556834f175e5" />
 
+## Autoevalucacion
+
+5: realicé las 3 actividades completas y la autoevaluación.
+
+
 
 
 
